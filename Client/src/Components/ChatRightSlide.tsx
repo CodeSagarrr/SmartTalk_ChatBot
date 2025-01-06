@@ -49,7 +49,6 @@ function ChatRightSlide({ setMessage, message }: any) {
 
     const handlesumbmit = async () => {
         const content = inputRef.current?.value as string;
-        console.log(prompt)
         if (!prompt) {
             return toast.error("Type something ...");
         }
@@ -58,20 +57,19 @@ function ChatRightSlide({ setMessage, message }: any) {
             inputRef.current.value = "";
         }
         // Add the user's message to the state
-        const userMessage: UserMessage = { role: "user", content };
-        console.log(userMessage);
+        const userMessage: UserMessage = { role: "user", content: content };
         setMessage((prev:any) => [...prev , userMessage]);
         // Fetch bot response from the server
         const getMessage = await getChatResponse(content);
         // Add the bot's message to the state
         const botMessage: UserMessage = { role: "assistant", content: getMessage.content };
-        setMessage([...botMessage.content]);
+        setMessage((prev:any) => [...prev , botMessage.content]);
         getBotResponse();
     }
 
     useEffect(() => {
         getBotResponse();
-    }, [activeUser, isAuthenticated])
+    }, [activeUser])
     return (
         <div className="w-full h-[100%] ">
             <div className=" w-full flex items-end justify-end">

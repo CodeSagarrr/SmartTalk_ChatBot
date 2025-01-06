@@ -5,12 +5,11 @@ body {
     font-family: "Roboto slab", sans-serif;
     margin: 0;
     padding: 0;
-    background: url('https://img.freepik.com/free-vector/abstract-perspective-grid-lines-black-background_1017-47349.jpg?t=st=1735980144~exp=1735983744~hmac=3107a6a35bc24c564ce80c4c99026144473ca616a4620019119ece336e8508e2&w=740');
+    background: url('https://img.freepik.com/free-vector/abstract-perspective-grid-lines-black-background_1017-47349.jpg?t=st=1736164278~exp=1736167878~hmac=f41e8bd360b2136494fae471c0ade0525ecccf096b342468c5834413cec1a129&w=740');
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-size: cover;
-    height: 100vh;
     color: #ffffff;
 }
 
