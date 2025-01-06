@@ -5,7 +5,7 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   server : {
     proxy : {
-      "/api/user" : "https://smarttalk-chatbot-app.onrender.com"
+      "/api/user" : "http://localhost:8000"
     }
   },
   plugins: [react()],
