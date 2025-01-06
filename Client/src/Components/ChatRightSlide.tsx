@@ -17,7 +17,7 @@ type UserMessage = {
 }
 
 function ChatRightSlide({ setMessage, message }: any) {
-    const { firstLetter, activeUser, logout, isAuthenticated }: any = userAuth();
+    const { firstLetter, activeUser, logout }: any = userAuth();
     const [openMenu, setOpenMenu] = useState<boolean>(false);
     const navigate = useNavigate();
     const inputRef = useRef<HTMLInputElement | null>(null);
