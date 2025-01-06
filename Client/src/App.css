@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+html,
+body {
+    font-family: "Roboto slab", sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('https://img.freepik.com/free-vector/abstract-perspective-grid-lines-black-background_1017-47349.jpg?t=st=1735980144~exp=1735983744~hmac=3107a6a35bc24c564ce80c4c99026144473ca616a4620019119ece336e8508e2&w=740');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    height: 100vh;
+    color: #ffffff;
+}
+
+.text {
+    filter: drop-shadow(0px 0px 6px #0ea5e9);
+}
+
+
+.text-2 {
+    filter: drop-shadow(0px 0px 16px #0ea5e9);
+}
+
+
+.text-3 {
+    filter: drop-shadow(0px 0px 8px #493FA3);
+}
+.avatar {
+    width: 40px;
+    height: 41px;
+    background-color: #493fa3;
+    /* Random color */
+    color: white;
+    font-size: 18px;
+    font-weight: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    text-transform: uppercase;
+}
+
+
+.avatarBot {
+    width: 40px;
+    height: 41px;
+    background-color: #0EA4E8;
+    /* background: transparent; */
+    /* Random color */
+    color: white;
+    font-size: 18px;
+    font-weight: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    border: 1px solid #ffffff;
+    text-transform: uppercase;
+    filter: drop-shadow(0px 0px 6px #0ea5e9);
+}
