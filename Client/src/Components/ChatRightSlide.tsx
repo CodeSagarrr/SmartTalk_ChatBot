@@ -21,7 +21,6 @@ function ChatRightSlide({ setMessage, message }: any) {
     const [openMenu, setOpenMenu] = useState<boolean>(false);
     const navigate = useNavigate();
     const inputRef = useRef<HTMLInputElement | null>(null);
-    console.log(message)
 
     const section = [
         { id: 1, title: "SmartTalk", icon: FaRobot, path: "/" },

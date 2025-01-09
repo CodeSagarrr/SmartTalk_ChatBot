@@ -9,6 +9,7 @@ function Header() {
     try {
       await logout();
       navigate("/login")
+      window.location.href = "/login"
     } catch (error) {
       console.log(error || "Error occured")
     }
