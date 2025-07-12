@@ -5,7 +5,7 @@ A real-time chatbot powered by Google's Gemini API. Designed to generate smart, 
 ## 🌐 Live Demo
 
 🔗 [SmartTalk Live](https://smarttalk-chatbot-ai.netlify.app/)  
-📦 [GitHub Repository](https://github.com/CodeSagarrr/SmartTalk-ChatBot-AI)
+📦 [GitHub Repository](https://github.com/CodeSagarrr/SmartTalk_ChatBot)
 
 ---
 
@@ -41,3 +41,18 @@ A real-time chatbot powered by Google's Gemini API. Designed to generate smart, 
 ### 1. Clone the repo
 ```bash
 git clone https://github.com/CodeSagarrr/SmartTalk-ChatBot-AI.git
+
+cd client
+npm install
+cd ../server
+npm install
+
+// Create .env in /server folder with:
+PORT=5000
+MONGO_URI=your_mongodb_url
+JWT_SECRET=your_jwt_key
+GEMINI_API_KEY=your_gemini_api
+
+
+cd server
+npm run dev
