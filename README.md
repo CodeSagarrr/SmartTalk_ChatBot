@@ -28,11 +28,7 @@ A real-time chatbot powered by Google's Gemini API. Designed to generate smart, 
 - 🧠 Context-aware messaging
 - ⚡ Clean UI and mobile responsive
 
----
 
-## 📸 Screenshots
-
-(Add screenshots here if available using `![alt](img.png)`)
 
 ---
 
